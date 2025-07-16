@@ -1,0 +1,316 @@
+/*
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Bebas+Neue&family=Cal+Sans&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://images.hdqwalls.com/wallpapers/abstract-crystal-glass-rv.jpg');
+    background-color: rgb(59, 59, 59);
+    background-size: cover;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.geral {
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    width: 650px;
+    border: 1px solid rgb(255, 255, 255);
+    flex-direction: column;
+    border-radius: 5px;
+
+    h1{
+        transform: translateY(-20px);
+        font-family: 'poppins';
+        color: chartreuse;
+    }
+}
+
+label {
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
+}
+
+input {
+    border-radius: 5px;
+    width: 50%;
+    height: 8%;
+    text-align: center;
+    color: white;
+    margin: 10px 0;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+#botao{
+    width: 20%;
+    height: 8%;
+    margin-top: 40px;
+    transition: 0.5s;
+}
+
+#botao:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+*/
+/*
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Bebas+Neue&family=Cal+Sans&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)), url('https://images.hdqwalls.com/wallpapers/novitec-ferrari-sf90-xx-stradale-aerodynamic-hybrid-supercar-oe.jpg');
+    background-size: cover;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.geral {
+    text-align: center;
+    backdrop-filter: blur(10px);
+    background-size: contain;
+    padding: 0 50px;
+    width: 450px;
+    height: 390px;
+    border: 1px solid rgb(236, 236, 236);
+
+    h3 {
+        color: white;
+        font-family: 'poppins';
+        text-align: center;
+    }
+
+    h4 {
+        color: rgb(0, 192, 240);
+        font-family: 'poppins';
+        text-align: center;
+    }
+}
+
+#options {
+    background-color: transparent;
+    width: 90%;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'poppins';
+    height: 50px;
+    margin-top: 50px;
+    color: rgb(0, 179, 250);
+}
+
+option {
+    color: white;
+    background-color: rgb(32, 27, 27);
+}
+
+.label {
+    color: rgb(0, 192, 240);
+    font-size: 1.2rem;
+    font-family: 'poppins';
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+input {
+    margin-top: 20px;
+    color: white;
+    background-color: transparent;
+    width: 30%;
+    height: 8%;
+}
+
+#resultado {
+    color: white;
+}
+
+.valor {
+    color: rgb(0, 233, 12);
+    font-weight: bold;
+}
+
+.bnt {
+    margin-top: -20px;
+    width: 50%;
+    height: 10%;
+    background-color: rgb(3, 138, 172);
+    transition: 1s;
+    font-weight: 600;
+    font-family: 'poppins';
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    animation: bnt-1 2s ease-in-out infinite;
+}
+
+.bnt:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(20px 10px 5px rgb(0, 255, 255));
+    background-color: transparent;
+}
+
+@keyframes bnt- {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    body {
+        backdrop-filter: blur(10px);
+    }
+
+    .geral {
+        border: none;
+        height: 80%;
+    }
+}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Bebas+Neue&family=Cal+Sans&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+}
+
+.container {
+    font-family: 'Bebas Neue';
+    border: 2px solid black;
+    height: auto;
+    /* <-- Deixa altura automática pro conteúdo crescer */
+    min-height: 450px;
+    /* valor base */
+    width: 450px;
+    justify-content: flex-start;
+    /* <-- Começa do topo */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+
+
+    h2 {
+        font-size: 2rem;
+        font-family: 'poppins';
+        color: rgb(255, 255, 255);
+        margin-bottom: 1rem;
+        transform: none;
+    }
+
+}
+
+@media screen and (max-width: 1020px) {
+    body {
+        height: 100%;
+        background-image: url('https://images.hdqwalls.com/wallpapers/macro-drops-4k-3k.jpg');
+        background-size: contain;
+        backdrop-filter: blur(20px);
+        height: 100dvh;
+
+    }
+
+    .container {
+        border: none;
+    }
+
+    #input-task {
+        border-radius: 10px;
+        width: 80%;
+        height: 2rem;
+        margin-top: 1rem;
+        /* remove margin negativa */
+        text-align: center;
+        font-family: 'Bebas Neue';
+        font-size: 1rem;
+        background-color: transparent;
+        color: rgb(188, 198, 207);
+    }
+
+    #addButton {
+        margin-top: 2rem;
+        width: 15rem;
+        height: 2rem;
+        transition: 1s;
+        font-weight: bold;
+        font-family: 'poppins';
+        background-color: transparent;
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        box-shadow: 3px 3px 5px rgb(12, 14, 14);
+    }
+
+    #addButton:hover {
+        box-shadow: 5px 5px 3px cyan;
+        scale: 1.1;
+        border-color: cyan;
+    }
+
+    li {
+        gap: 10px;
+        height: 2rem;
+        padding: 10px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border: 2px solid rgb(255, 255, 255);
+        box-shadow: 5px 5px 5px rgb(12, 12, 12);
+        border-radius: 10px;
+        margin-top: 20px;
+        color: rgb(187, 177, 177);
+        font-size: 1.3rem;
+    }
+
+    .editButton {
+        color: rgb(83, 124, 20);
+        font-weight: 600;
+        width: 4rem;
+        font-size: 0.8rem;
+        font-family: 'poppins';
+    }
+
+    .removeButton {
+        color: rgb(156, 26, 26);
+        font-weight: 600;
+        width: 4rem;
+        font-size: 0.8rem;
+        font-family: 'poppins';
+    }
+
+    .task-completed {
+        text-decoration: line-through;
+        color: limegreen !important;
+    }
+}
